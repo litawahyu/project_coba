@@ -1,0 +1,18 @@
+----Yang belum bisa------
+
+-Lihat data kecelakaan, lihat data lokasi dan lihat data yg lainnya di folder admin 
+belum tak link ke index.php nya admin gus,binggung buat classnya biar ada gambar seperti menu lainnya
+
+-Input data kecelakaan,input data jenis dll kok ga bisa dalam bentuk dropdown list 
+ya di index.php admin  ??
+
+-sessionnya belum jalan 
+
+-usernya ini ada tiga ,tapi hanya dua level saja admin(kepolisian) dan non-admin(lembaga pemerintah)
+sedangkan masyarakat tidak pelu login, caranya gimana gus?? loginnya pake user: lita pass:12650125
+kalo pakai user:aku pass:123 ga bisa kenapa ya ??
+
+-peta belum sesuai metode dan data kecelakaan
+
+-kalo buat data pertahun brarti gimana ya?
+biar ketika input langsung buat peta baru berdasarkan data kecelakaan dengan inputan tahun yang sama
