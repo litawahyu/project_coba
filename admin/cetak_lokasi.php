@@ -16,15 +16,15 @@ $datalokasi=lokasi();
     
     <td width="81" bgcolor="#F5F5F5"><b>ID Lokasi</b></td>
     <td width="321" bgcolor="#F5F5F5"><b>Nama Lokasi</b></td>
-    <td width="146" bgcolor="#F5F5F5"><b>ID kECAMATAN/b></td>
-    <td width="321" bgcolor="#F5F5F5"><b>LATITUDE</b></td>
-    <td width="146" bgcolor="#F5F5F5"><b>LONGITUDE</b></td>
+    <td width="146" bgcolor="#F5F5F5"><b>Nama Kecamatan</b></td>
+    <td width="321" bgcolor="#F5F5F5"><b>Latitude</b></td>
+    <td width="146" bgcolor="#F5F5F5"><b>Longitude</b></td>
   </tr>
   <?php while($row=mysqli_fetch_assoc($datalokasi)):?>
               <tr>
                 <td><?php echo $row['id_lokasi']?></td>
                 <td><?php echo $row['nama_lokasi']?></td>
-                 <td><?php echo $row['id_kecamatan']?></td>
+                 <td><?php echo $row['nama_kecamatan']?></td>
                 <td><?php echo $row['latidude']?></td>
                  <td><?php echo $row['longitude']?></td>
               
