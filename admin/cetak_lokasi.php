@@ -9,8 +9,9 @@ $datalokasi=lokasi();
 <title> :: Laporan Cetak Data Lokasi:</title>
 <link href="../css/stylecetak.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<h2> LAPORAN DATA LOKASI </h2>
+
+<body onLoad="window.print()">
+<h2 align="center"> LAPORAN DATA LOKASI </h2>
 <table class="table-list" width="600" border="0" cellspacing="1" cellpadding="2">
   <tr>
     
@@ -32,6 +33,6 @@ $datalokasi=lokasi();
                
               </tr> <?php endwhile; ?>
 </table>
-<img src="../img/cetak.png" width="50" onClick="javascript:window.print()" />
+
 </body>
 </html>
